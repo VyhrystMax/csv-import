@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/bootstrap";
+
+.import-page {
+    .err-notification {
+        opacity: 0;
+    }
+
+    .hidden-fields {
+        background: #e3e3e3;
+        padding: 1em;
+        margin-top: 1em;
+        border-radius: .25em;
+        display: none;
+
+        .row {
+            padding: .5em;
+
+            input[type="text"] {
+                line-height: 0.875rem;
+                padding: .3rem .5rem;
+            }
+
+            .rm-custom-field {
+                line-height: 1rem;
+            }
+        }
+    }
+}
+
+.product-page {
+    .product-fields {
+        background: #e3e3e3;
+        border-radius: .5em;
+
+        .p-label {
+            font-weight: 600;
+            padding: .5em;
+        }
+        .p-value {
+            overflow-wrap: break-word;
+            padding: .5em;
+        }
+        .d-md-block {
+            border-bottom: 1px dotted #ffffff;
+        }
+        h5 {
+            margin-top: .5em;
+        }
+    }
+}
