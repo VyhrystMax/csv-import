@@ -3,7 +3,7 @@
 @section('content')
     <section class="py-5 text-center container import-page">
         <div class="row py-lg-5">
-            @if(empty($data))
+            @if($data->count() === 0)
                 <h3>No products found!</h3>
             @else
                 <table class="table table-striped">
